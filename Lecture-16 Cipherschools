@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int sum(int a, int b) {
+    int c;
+    a = 10;  // These assignments are unnecessary for summing given arguments
+    b = 11;  
+    c = a + b;
+    return c;
+}
+
+int main() {
+    int a, b;
+    a = 3;
+    b = 5;
+
+    int c;
+    cout << a << " " << b << endl;
+
+    c = sum(a, b);
+
+    cout << c << endl;
+    cout << a << " " << b << endl;
+
+    cout << c << endl;  // Added newline character for better formatting
+    return 0;
+}
