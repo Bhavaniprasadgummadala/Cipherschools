@@ -1,0 +1,16 @@
+// code of lecture 23....
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+int a=5;
+
+int *x;
+x=&a;
+
+cout<<"The address of a,  which is stored in the poimter x is : "<<x<<"the value of x+1 is "<<x+1<<endl;
+
+return 0;
