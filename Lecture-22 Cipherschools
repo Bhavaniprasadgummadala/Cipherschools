@@ -1,0 +1,30 @@
+// code of lecture 22....
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int a;
+int b;
+int c;
+
+int *p;
+int *q;
+
+p=&a;
+q=&b;
+
+a=2;
+b=5;
+*p=3;
+
+c= *p+*q;
+
+//cout<<"The value of a is(from the actual variable type) "<<a<<endl;
+//cout<<"The value of a from the pointer using *(astrerix / indirection operator)"<<*p<<endl;
+ cout<<"the value of c is : "<<c;
+
+return 0;
+}
+
