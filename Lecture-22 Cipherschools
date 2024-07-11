@@ -21,6 +21,9 @@ b=5;
 
 c= *p+*q;
 
+p+1;
+q+2;
+
 //cout<<"The value of a is(from the actual variable type) "<<a<<endl;
 //cout<<"The value of a from the pointer using *(astrerix / indirection operator)"<<*p<<endl;
  cout<<"the value of c is : "<<c;
