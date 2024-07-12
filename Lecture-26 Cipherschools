@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	//char p,r,a,s,a,d;
+	//cin>>p>>r>>a>>s>a>>d;
+	
+	//char name[5];
+	char name[1000];
+	
+	cout<<"enter your name: (note: enter # after your name: )";
+	int i;
+	
+	while(name[i]!="#"){
+		cin>>name[i];
+		i++;
+	}
+	
+	//for(i=0;i<5;i++){
+	//	cin>>name[i];
+	//}
+	
+	i=0;
+	
+	cout<<"The name you have just entered is "<<endl;
+	
+	//for(i=0;i<5<<i++){
+	//	cout<<name[i];
+	//}
+	
+	while(name[i]!="#"){
+		cout<<name[i];
+	}
+	
+
+}
